@@ -1,0 +1,21 @@
+-what is configuration management
+--remote execution based (eg ansible)
+--recipes based (chef & puppet)
+-puppet basic concepts
+--*example setup
+--resources
+---files & dirs
+---packages, services & users
+---content with templates & FOOBAR
+--nodes & catalogs
+--classes
+-puppet components and further stuff
+--oneshot or master/client
+--hiera & PuppetDB
+--dashboard
+--test driven XYZ with "puppet --noop"
+--enterpise?
+-further reading
+--puppet doc (https://docs.puppetlabs.com/#puppetpuppet)
+---cheat sheet https://docs.puppetlabs.com/puppet_core_types_cheatsheet.pdf
+--podcast (http://puppetlabs.com/resources/podcasts)
