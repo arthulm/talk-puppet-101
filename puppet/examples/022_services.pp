@@ -1,7 +1,8 @@
-package { "ssh":
+package { "openssh-server":
     ensure => present,
 }
 
-service { "ssh":
-    require => Package["ssh"]
+service { "sshd":
+    require => Package["openssh-server"],
+    ensure => running,
 }
